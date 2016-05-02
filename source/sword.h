@@ -20,7 +20,7 @@ public:
     CSword() = default;
     ~CSword() = default;
 
-    void useWeapon() override;
+    virtual void useWeapon() override;
 };
 
 

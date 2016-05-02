@@ -19,7 +19,7 @@ public:
     CKnight() = default;
     virtual ~CKnight() = default;
 
-    void fight() override;
+    virtual void fight() override;
 };
 
 

@@ -20,7 +20,7 @@ public:
     CAxe() = default;
     virtual ~CAxe() = default;
 
-    void useWeapon() override;
+    virtual void useWeapon() override;
 };
 
 

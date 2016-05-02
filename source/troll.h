@@ -20,7 +20,7 @@ public:
     CTroll() = default;
     ~CTroll() = default;
 
-    void fight() override;
+    virtual void fight() override;
 };
 
 
